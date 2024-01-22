@@ -1,27 +1,40 @@
-# ADIBHOITEMyFavouritecars
+Name : Aditya Sambhaji Bhoite
+Student id : W0826663@myscc.ca
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+#Successfully insatlled noide.js and run commands
+#Created a public repo on github as per instruction.
+ADI_BHOITE_WEB601Assignments_Myfavouritecars.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Setted  the version of  application to 0.0.1 in the package.json
 
-## Code scaffolding
+Have to run the following commands
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+npm run-script generatecomponent to generate a component
+npm run-script generatepipe to generate a pipe
+npm run-script generatedirective to generate a directive
 
-## Build
+Errors spotted deleted the previous node.js file and downloaded again and after running commands once again its succesfully installed.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Added a folder inside the (app) folder helper-files
+Added a file to the helper-files folder named as content-interface.ts
 
-## Running unit tests
+defined an interface called Content with parameters
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+id = number
+title = string
+description = string
+creator = string
+imgURL = (optional)string
+type = (optional)string
+tags = (optional)array of strings
 
-## Running end-to-end tests
+Created an  another file inside of the helper-files folder called content-list.ts that contains a class named ContentList.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Created a new component as Content-card
+Added a 3 items (MY favourite cars)
 
-## Further help
+Finally after solving some bugs its done last touchup and have uploded on github.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+

@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+  padding: 20px;
+  background: rgb(157, 101, 44);
+  color: #000;
+}
+
+.card > div {
+  display: flex;
+  gap: 15px;
+}
+
+.card img {
+  cursor: pointer;
+}
+
+.badge {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  padding: 5px 10px;
+  background-color: rgb(195, 211, 72);
+  border-radius: 9999px;
+}
+
+.card-type-Human {
+  background-color: lightpink;
+}
+
+.card-type-God {
+  background-color: lightyellow;
+}

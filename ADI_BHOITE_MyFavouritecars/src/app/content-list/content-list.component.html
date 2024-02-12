@@ -1,7 +1,8 @@
+
 <h1>My Favourite SuperCars</h1>
 
 <div>
-  <input type="text" [(ngModel)]="searchTitle" placeholder="Enter title for eg. Janet Dyne" size="40" />
+  <input type="text" [(ngModel)]="searchTitle" placeholder="Enter title for eg. Audi" size="40" />
 
   <button (click)="searchContentByTitle()">Search</button>
 
@@ -10,7 +11,7 @@
   </p>
 </div>
 
-<h2>Content item with NO Type</h2>
+<h2>Content item with no type</h2>
 
 <app-content-card *ngFor="let item of contents | filterContent: ''; first as isFirst;" [ngStyle]="{'border': isFirst?'2px solid black': '1px solid blue'}" [content]="item" class="card-wrapper">
 </app-content-card>
@@ -19,7 +20,7 @@
 <hr />
 
 
-<h2>Content item with Sports Car Type</h2>
+<h2>Content item with Sports type</h2>
 
 <app-content-card *ngFor="let item of contents | filterContent: 'Sports'; first as isFirst;" [ngStyle]="{'border': isFirst?'2px solid black': '1px solid blue'}" [content]="item" class="card-wrapper">
 </app-content-card>
@@ -28,7 +29,7 @@
 <hr />
 
 
-<h2>Content item with Luxury Car Type</h2>
+<h2>Content item with Luxury Type</h2>
 
 <app-content-card *ngFor="let item of contents | filterContent: 'Luxury'; first as isFirst;" [ngStyle]="{'border': isFirst?'2px solid black': '1px solid blue'}" [content]="item" class="card-wrapper">
 </app-content-card>
